@@ -1,0 +1,11 @@
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\obj\Debug\UnityVS.Test Folder.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\obj\Debug\Assembly-CSharp.dll
+C:\Users\Neil Gannon\Documents\GitHub\GamesFleadh\Test Folder\obj\Debug\Assembly-CSharp.pdb
