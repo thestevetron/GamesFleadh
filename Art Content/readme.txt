@@ -1,0 +1,1 @@
+Place all art content in this folder
