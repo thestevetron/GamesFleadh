@@ -22,13 +22,14 @@ public class PlayerCameraMovement : MonoBehaviour
     {
         //.Log("Rotation " + _Camera.transform.rotation);
         Movement();
-        _playerScore = (int)transform.position.z;
-        _scoreText.text = "FPS : " + 1.0f / Time.deltaTime;
+        //_playerScore = (int)transform.position.z - (int)transform.position.x;
+        //_scoreText.text = "FPS : " + 1.0f / Time.deltaTime;
+        _scoreText.text = "Score : " + _playerScore;
         _directionSetter.transform.position = transform.position;
         CameraSettings();
         _controller = GameObject.FindGameObjectWithTag("Controller");
 
-        Debug.Log("Pos " + transform.position);
+        Debug.Log("Vel " + transform.rigidbody.velocity);
 	}
 
     IEnumerator RotateCamera()
@@ -71,6 +72,7 @@ public class PlayerCameraMovement : MonoBehaviour
     void Movement()
     {
         transform.rigidbody.AddForce(_directionSetter.transform.forward * 8, ForceMode.Acceleration);
+        
         ///Jump
         //if(Input.GetKeyDown(KeyCode.Space))
         //{

@@ -51,6 +51,9 @@ public class CollectManager : MonoBehaviour
         for (int i = 0; i < collects.Count; i++)
         {
             Object col = collects[i];
+
+            (col as GameObject).transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward);
+
             if ((col as GameObject).transform.position.z <= player.rigidbody.position.z - 10)
             {
                 //cubes.Remove(cube);

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{EF1FED63-654F-563C-26BF-42A087E632F6}") = "GamesFleadhTest", "Assembly-CSharp.csproj", "{420CC9D4-849A-63C6-44CA-52ED713C4FA5}"
 EndProject
+Project("{EF1FED63-654F-563C-26BF-42A087E632F6}") = "GamesFleadhTest", "Assembly-CSharp-Editor.csproj", "{431C3701-7F9E-0A38-20F4-D93DD20FEB36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{420CC9D4-849A-63C6-44CA-52ED713C4FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{420CC9D4-849A-63C6-44CA-52ED713C4FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{420CC9D4-849A-63C6-44CA-52ED713C4FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431C3701-7F9E-0A38-20F4-D93DD20FEB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431C3701-7F9E-0A38-20F4-D93DD20FEB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431C3701-7F9E-0A38-20F4-D93DD20FEB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431C3701-7F9E-0A38-20F4-D93DD20FEB36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																														GlobalSection(MonoDevelopProperties) = preSolution
+																																																																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
