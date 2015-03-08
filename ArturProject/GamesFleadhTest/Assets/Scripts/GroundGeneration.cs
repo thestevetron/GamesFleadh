@@ -46,7 +46,9 @@ public class GroundGeneration : MonoBehaviour
                 Instantiate(_curvedGroundLeft, _spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned*8)), Quaternion.identity);
 
                 GetComponent<CollectManager>().SetEndPoint(_spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned * 8)));
+                GetComponent<ObstacleManager>().SetEndPoint(_spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned * 8)));
                 
+
                 _nextGroundPosition = 0;
                 _readyToSpawn = false;
                 _numberSpawned = 0;
@@ -66,7 +68,9 @@ public class GroundGeneration : MonoBehaviour
                 Instantiate(_curvedGroundRight, _spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned*8)), Quaternion.Euler(new Vector3(0,-90,0)));
 
                 GetComponent<CollectManager>().SetEndPoint(_spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned * 8)));
+                GetComponent<ObstacleManager>().SetEndPoint(_spawnPoint.transform.position + (_spawnPoint.transform.forward * (_numberSpawned * 8)));
                 
+
                 _nextGroundPosition = 1;
                 _readyToSpawn = false;
                 _numberSpawned = 0;                

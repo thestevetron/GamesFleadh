@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HamsterScript.cs" />
      <Compile Include="Assets\Scripts\AnimateMenu.cs" />
      <Compile Include="Assets\Scripts\CollectManager.cs" />
      <Compile Include="Assets\Scripts\CreateObstacle.cs" />
@@ -54,8 +53,10 @@
      <Compile Include="Assets\Scripts\DestroyObj.cs" />
      <Compile Include="Assets\Scripts\EndGameScript.cs" />
      <Compile Include="Assets\Scripts\GroundGeneration.cs" />
+     <Compile Include="Assets\Scripts\HamsterScript.cs" />
      <Compile Include="Assets\Scripts\MenuSystem.cs" />
      <Compile Include="Assets\Scripts\New\Ground.cs" />
+     <Compile Include="Assets\Scripts\ObstacleManager.cs" />
      <Compile Include="Assets\Scripts\PlayerCameraMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\StartRetryScript.cs" />

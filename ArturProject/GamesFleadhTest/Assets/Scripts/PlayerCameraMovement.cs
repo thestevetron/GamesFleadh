@@ -23,7 +23,7 @@ public class PlayerCameraMovement : MonoBehaviour
     {
         //.Log("Rotation " + _Camera.transform.rotation);
         Movement();
-        //_playerScore = (int)transform.position.z - (int)transform.position.x;
+        _playerScore = (int)transform.position.z - (int)transform.position.x;
         //_scoreText.text = "FPS : " + 1.0f / Time.deltaTime;
         _scoreText.text = "Score : " + _playerScore;
         _collectsText.text = "Berries : " + _numcols;
@@ -31,7 +31,7 @@ public class PlayerCameraMovement : MonoBehaviour
         CameraSettings();
         _controller = GameObject.FindGameObjectWithTag("Controller");
 
-        Debug.Log("Vel " + transform.rigidbody.velocity);
+        //Debug.Log("Vel " + transform.rigidbody.velocity);
 	}
 
     IEnumerator RotateCamera()
@@ -171,9 +171,12 @@ public class PlayerCameraMovement : MonoBehaviour
                 _controller.GetComponent<GroundGeneration>().CreateGroundStraight();
 
                 Destroy(col.gameObject);
-                Debug.Log("CORNER" + _playerFacing);
+                //Debug.Log("CORNER" + _playerFacing);
 
+                Debug.Log("chamou facing");
                 _controller.GetComponent<CollectManager>().ChangeFacig(0);
+                _controller.GetComponent<ObstacleManager>().ChangeFacig(0);
+                
             }
             else if (_playerFacing == 0)
             {
@@ -193,6 +196,8 @@ public class PlayerCameraMovement : MonoBehaviour
                 Debug.Log("CORNER" + _playerFacing);
 
                 _controller.GetComponent<CollectManager>().ChangeFacig(1);
+                _controller.GetComponent<ObstacleManager>().ChangeFacig(1);
+
             }
         }
 

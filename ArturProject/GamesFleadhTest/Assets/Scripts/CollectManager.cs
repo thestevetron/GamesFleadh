@@ -2,13 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class CollectManager : MonoBehaviour
-{
+public class CollectManager : MonoBehaviour{
 
     //private WorldSettings settings;
 
     public GameObject Collectible, player;
-    List<Object> collects = new List<Object>();
+    public List<Object> collects = new List<Object>();
     //int index = 0;
     Vector3 _spawnPoint;
     Vector3 direction;
