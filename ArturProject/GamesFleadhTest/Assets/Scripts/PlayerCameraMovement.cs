@@ -6,8 +6,9 @@ public class PlayerCameraMovement : MonoBehaviour
     public GameObject _Camera, _directionSetter, _controller;
     public static int _playerScore = 0;
     public GUIText _scoreText;
+    public GUIText _collectsText;
     public static int _playerFacing;
-    int centrePos;
+    int centrePos, _numcols = 0;
     public float turnTime;
     DestroyGround dest;
     
@@ -25,6 +26,7 @@ public class PlayerCameraMovement : MonoBehaviour
         //_playerScore = (int)transform.position.z - (int)transform.position.x;
         //_scoreText.text = "FPS : " + 1.0f / Time.deltaTime;
         _scoreText.text = "Score : " + _playerScore;
+        _collectsText.text = "Berries : " + _numcols;
         _directionSetter.transform.position = transform.position;
         CameraSettings();
         _controller = GameObject.FindGameObjectWithTag("Controller");
@@ -201,6 +203,7 @@ public class PlayerCameraMovement : MonoBehaviour
 
         if(col.gameObject.tag == "Collectible"){
             _playerScore += 10;
+            _numcols++;
             _controller.GetComponent<CollectManager>().removeCollect(col.gameObject);
         }
     }
