@@ -1,0 +1,7 @@
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\obj\Debug\UnityVS.GamesFleadhTest.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\obj\Debug\Assembly-CSharp.dll
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Artur Pinheiro\Documents\GitHub\GamesFleadh\ArturProject\GamesFleadhTest\Temp\UnityVS_bin\Debug\UnityEngine.dll
