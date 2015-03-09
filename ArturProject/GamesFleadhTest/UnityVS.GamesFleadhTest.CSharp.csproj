@@ -61,9 +61,12 @@
     <Compile Include="Assets\Scripts\HamsterScript.cs" />
     <Compile Include="Assets\Scripts\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\New\Ground.cs" />
+    <Compile Include="Assets\Scripts\ObjectsManager.cs" />
     <Compile Include="Assets\Scripts\ObstacleManager.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\QuitScript.cs" />
+    <Compile Include="Assets\Scripts\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\StartRetryScript.cs" />
     <Compile Include="Assets\Scripts\TestRotate.cs" />
   </ItemGroup>

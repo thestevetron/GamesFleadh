@@ -11,6 +11,7 @@ public class HamsterScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position = player.transform.position;
+        //transform.position += new Vector3(0,2,0);
         transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward);
 
 	}

@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class CollectManager : MonoBehaviour{
+public class CollectManager : MonoBehaviour
+{
 
     //private WorldSettings settings;
 
